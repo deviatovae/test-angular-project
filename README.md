@@ -1,4 +1,4 @@
-deviatovae-test-angular.netlify.app
+[deviatovae-test-angular.netlify.app](https://deviatovae-test-angular.netlify.app)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3adbe212-7e1d-4a9a-83ab-4b5ca3c2372d/deploy-status)](https://app.netlify.com/sites/deviatovae-test-angular/deploys)
 
