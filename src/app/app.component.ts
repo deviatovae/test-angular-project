@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { IconDefinition } from '@fortawesome/free-regular-svg-icons';
+import icons from '../storage/icons';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-project';
+  icon?: IconDefinition;
+
+  generateRandomIcon(): void {
+    const iconNames = Object.keys(icons);
+    const randomNameIndex = Math.floor(Math.random() * iconNames.length);
+    const randomName = iconNames[randomNameIndex];
+
+    this.icon = icons[randomName];
+  };
 }
