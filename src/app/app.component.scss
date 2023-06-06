@@ -1,0 +1,19 @@
+@import "../assets/colors";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: url("https://img.fortawesome.com/1ce05b4b/hero-icon-bg.svg");
+}
+
+.title {
+  color: $primary;
+  font-weight: bold;
+  background-color: $bgLight;
+}
+
