@@ -11,10 +11,12 @@ export class AppComponent {
   icon?: IconDefinition;
 
   generateRandomIcon(): void {
-    const iconNames = Object.keys(icons);
-    const randomNameIndex = Math.floor(Math.random() * iconNames.length);
-    const randomName = iconNames[randomNameIndex];
+    setTimeout(() => {
+      const iconNames = Object.keys(icons);
+      const randomNameIndex = Math.floor(Math.random() * iconNames.length);
+      const randomName = iconNames[randomNameIndex];
 
-    this.icon = icons[randomName];
+      this.icon = icons[randomName];
+    }, 3000)
   };
 }
