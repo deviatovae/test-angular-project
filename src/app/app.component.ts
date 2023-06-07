@@ -9,6 +9,7 @@ import icons from '../storage/icons';
 })
 export class AppComponent {
   icon?: IconDefinition;
+  readonly iconTimeout = 3000;
 
   generateRandomIcon(): void {
     setTimeout(() => {
@@ -17,6 +18,6 @@ export class AppComponent {
       const randomName = iconNames[randomNameIndex];
 
       this.icon = icons[randomName];
-    }, 3000)
+    }, this.iconTimeout);
   };
 }
