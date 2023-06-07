@@ -2,6 +2,9 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3adbe212-7e1d-4a9a-83ab-4b5ca3c2372d/deploy-status)](https://app.netlify.com/sites/deviatovae-test-angular/deploys)
 
+# Task
+Create a component with a button. When clicking on this button a random Font Awesome icon should be rendering with a 3-second delay
+
 # AngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
